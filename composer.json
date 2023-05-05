@@ -1,0 +1,23 @@
+{
+    "name": "flying/css-classes-bundle",
+    "description": "Symfony bundle to simplify integration of flying/css-classes library",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexander Grimalovsky",
+            "email": "alexander.grimalovsky@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "flying/css-classes": "^1.0",
+        "symfony/dependency-injection": "^5|^6",
+        "symfony/http-kernel": "^5|^6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Flying\\Bundle\\Css\\ClassesBundle\\": "src/"
+        }
+    }
+}
